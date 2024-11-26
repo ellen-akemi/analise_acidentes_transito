@@ -42,7 +42,7 @@ print(df_consolidado.isnull().sum())
 # Verificar tipo de dados das colunas
 df_consolidado.info()
 
-# Alterando para o formato datatime
+# Alterando para o formato datetime
 df_consolidado["data_inversa"] = pd.to_datetime(df_consolidado["data_inversa"], errors="coerce")
 df_consolidado["hora"] = pd.to_datetime(df_consolidado["horario"], format="%H:%M:%S").dt.hour
 df_consolidado.info()
@@ -100,7 +100,7 @@ df_consolidado["gravidade_acidente"] = df_consolidado.apply(gravidade_acidente, 
 
 # Coluna com faixas para o número total de feridos
 faixas_feridos = [0, 3, 10, float('inf')]
-rótulos_feridos = ["Poucos", "Moderado", "Grave"]
+rótulos_feridos = ["Poucos", "Moderado", "Muitos"]
 df_consolidado["faixa_feridos"] = pd.cut(df_consolidado["feridos"], bins=faixas_feridos, labels=rótulos_feridos, right=False)
 
 print(df_consolidado[["feridos", "faixa_feridos"]].head())
@@ -109,24 +109,6 @@ print(df_consolidado[["feridos", "faixa_feridos"]].head())
 print("\n Resumo das 10 primeiras linhas do DataFrame com as novas colunas:")
 print(df_consolidado.head(10))
 
-# Agrupamento para análise
-
-# Agrupar por tipo de acidente e gravidade do acidente
-tipo_gravidade = df_consolidado.groupby(["tipo_acidente", "gravidade_acidente"]).size().reset_index(name="contagem")
-print(tipo_gravidade)
-
-# Contagem de acidentes por região (uf)
-acidentes_por_uf = df_consolidado.groupby("uf").size().reset_index(name="quantidade_acidentes")
-print(acidentes_por_uf)
-
-# Contagem de acidentes por condição meteorológica
-acidentes_por_clima = df_consolidado.groupby("condicao_metereologica").size().reset_index(name="quantidade_acidentes")
-print(acidentes_por_clima)
-
-# Contagem de acidentes por gravidade do acidente
-acidentes_por_gravidade = df_consolidado.groupby("gravidade_acidente").size().reset_index(name="quantidade_acidentes")
-print(acidentes_por_gravidade)
-
-# Contagem de acidentes por período do dia
-acidentes_por_periodo_dia = df_consolidado.groupby("periodo_dia").size().reset_index(name="quantidade_acidentes")
-print(acidentes_por_periodo_dia)
+# Salvar o DataFrame atualizado em um arquivo CSV
+df_consolidado.to_csv("df_consolidado_atualizado.csv", index=False, encoding="utf-8", sep=";")
+print("Arquivo consolidado tratado salvo como 'df_consolidado_atualizado.csv'.")
