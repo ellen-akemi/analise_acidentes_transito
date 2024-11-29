@@ -81,7 +81,7 @@ Durante a análise exploratória dos dados, alguns insights e padrões interessa
 - A análise mostrou que a maior parte dos acidentes tem gravidade moderada a leve.
 - As principais causas de acidentes incluíram reação tardia ou ineficiente do condutor, ausência de reação do condutor, acessar via sem observar outros veículos.
 - Os tipos comuns de acidentes foram colisões traseiras e trasnversais e saída de leito carroçável.
-- O mapa interativo revelou a concentração de acidentes em áreas.
+- O mapa interativo revelou a concentração de acidentes nas regiões central e sudeste do Brasil.
 
 ## **Notas Importantes**
 
