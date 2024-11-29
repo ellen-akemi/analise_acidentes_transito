@@ -87,6 +87,6 @@ Caso encontre problemas ou tenha dúvidas, sinta-se à vontade para entrar em co
 
 ## Pessoas Contribuidoras
 
-[<img src="https://avatars.githubusercontent.com/u/181884443?v=4" width=115><br><sub>Ellen Akemi Caldeira</sub>](https://github.com/ellen-akemi) |  [<img src="https://avatars.githubusercontent.com/u/55546267?v=4" width=115><br><sub>Priscila Miranda</sub>](https://github.com/priscilafraser) |
+[<img src="https://avatars.githubusercontent.com/u/181884443?v=4" width=115><br><sub>Ellen Akemi</sub>](https://github.com/ellen-akemi) |  [<img src="https://avatars.githubusercontent.com/u/55546267?v=4" width=115><br><sub>Priscila Miranda</sub>](https://github.com/priscilafraser) |
 | :---: | :---: |
 
