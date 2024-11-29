@@ -1,1 +1,15 @@
+# Ignorar todos os arquivos CSV
 *.csv
+
+# Ignorar arquivos temporários do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar arquivos compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+
