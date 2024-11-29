@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Carregar arquivos
-df_2021 = pd.read_csv("2021.csv", encoding="iso-8859-1", sep=";")
-df_2022 = pd.read_csv("2022.csv", encoding="utf-8", sep=",")
-df_2023 = pd.read_csv("2023.csv", encoding="iso-8859-1", sep=";")
-df_2024 = pd.read_csv("2024.csv", encoding="utf-8", sep=",")
+df_2021 = pd.read_csv("data/2021.csv", encoding="iso-8859-1", sep=";")
+df_2022 = pd.read_csv("data/2022.csv", encoding="utf-8", sep=",")
+df_2023 = pd.read_csv("data/2023.csv", encoding="iso-8859-1", sep=";")
+df_2024 = pd.read_csv("data/2024.csv", encoding="utf-8", sep=",")
 
 print(df_2021.head())
 print(df_2022.head())
