@@ -39,7 +39,7 @@ Siga os passos abaixo para configurar o ambiente virtual e executar o projeto:
 ## **Como Configurar os Dados**
 
 1. **Baixe os dados necessários** no seguinte link:
-   - [Link para os Dados](#)
+   - [https://www.gov.br/prf/pt-br/acesso-a-informacao/dados-abertos/dados-abertos-da-prf](#)
 
 2. **Crie uma pasta chamada `data` na raiz do projeto** e insira os arquivos baixados nela.
 
@@ -58,7 +58,7 @@ Siga os passos abaixo para configurar o ambiente virtual e executar o projeto:
    ```bash
    streamlit run interface.py
 
-3. Abra o navegador no endereço fornecido (normalmente, http://localhost:8501) para visualizar o dashboard.
+3. Abra o navegador no endereço fornecido (normalmente, http://localhost:8502) para visualizar o dashboard.
 
    ---
 
