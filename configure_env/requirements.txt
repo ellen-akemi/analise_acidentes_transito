@@ -128,3 +128,7 @@ websocket-client==1.4.2
 widgetsnbextension==4.0.5
 xlsxwriter==3.0.7
 zipp==3.11.0
+seaborn
+plotly
+matplotlib==3.7.2
+streamlit-option-menu
