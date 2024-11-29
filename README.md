@@ -53,16 +53,6 @@ Siga os passos abaixo para configurar o ambiente virtual e executar o projeto:
 
    ```bash
    cd ..
-
-2.Execute o script de pré-processamento para gerar os arquivos necessários:
-
-   ```bash
-   python processamento_dados.py
-
-3. Execute a linha abaixo para instalar pacotes faltantes:
-
-   ```bash
-   pip install streamlit-option-menu plotly seaborn
    
 4. Execute o script interface.py para iniciar o dashboard:
 
