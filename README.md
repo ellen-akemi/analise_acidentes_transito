@@ -78,7 +78,7 @@ Siga os passos abaixo para configurar o ambiente virtual e executar o projeto:
 Durante a análise exploratória dos dados, alguns insights e padrões interessantes foram observados:
 
 - A maioria dos acidentes ocorre durante o período da tarde, principalmente no horário de pico por volta das 18h. No período da manhã também temos uma grande quantidade de acidentes por volta das 07h.
-- - Apesar de haver acidentes com grandes quantidades de feridos, a faixa de feridos na maioria dos acidentes concentra-se entre 0 e 4.
+- Apesar de haver acidentes com grandes quantidades de feridos, a faixa de feridos na maioria dos acidentes concentra-se entre 0 e 4.
 - A análise mostrou que a maior parte dos acidentes tem gravidade moderada a leve.
 - As principais causas de acidentes incluíram reação tardia ou ineficiente do condutor, ausência de reação do condutor, acessar via sem observar outros veículos.
 - Os tipos comuns de acidentes foram colisões traseiras e transversais e saída de leito carroçável.
@@ -93,7 +93,7 @@ Durante a análise exploratória dos dados, alguns insights e padrões interessa
 
 ## **Contato**
 
-Caso encontre problemas ou tenha dúvidas, sinta-se à vontade para entrar em contato com os desenvolvedores do projeto. 😊
+Caso encontre problemas ou tenha dúvidas, sinta-se à vontade para entrar em contato com as desenvolvedoras do projeto. 😊
 
 ---
 
