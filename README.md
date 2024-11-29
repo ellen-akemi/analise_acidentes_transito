@@ -62,6 +62,16 @@ Siga os passos abaixo para configurar o ambiente virtual e executar o projeto:
 
    ---
 
+## **Principais Resultados e Insights Obtidos**
+
+Durante a análise exploratória dos dados, alguns insights e padrões interessantes foram observados:
+
+- A maioria dos acidentes ocorre durante o período da tarde, principalmente no horário de pico por volta das 18h. No período da manhã também temos uma grande quantidade de acidentes por volta das 07h.
+- A análise mostrou que a maior parte dos acidentes tem gravidade moderada a leve.
+- As principais causas de acidentes incluíram reação tardia ou ineficiente do condutor, ausência de reação do condutor, acessar via sem observar outros veículos.
+- Os tipos comuns de acidentes foram colisões traseiras e trasnversais e saída de leito carroçável.
+- O mapa interativo revelou a concentração de acidentes em áreas.
+
 ## **Notas Importantes**
 
 - Certifique-se de que todos os arquivos de dados necessários estão na pasta `data`.
