@@ -60,3 +60,23 @@ Siga os passos abaixo para configurar o ambiente virtual e executar o projeto:
 
 3. Abra o navegador no endereço fornecido (normalmente, http://localhost:8501) para visualizar o dashboard.
 
+   ---
+
+## **Notas Importantes**
+
+- Certifique-se de que todos os arquivos de dados necessários estão na pasta `data`.
+- Caso tenha problemas ao instalar dependências, verifique a versão do Python e do Conda.
+
+---
+
+## **Contato**
+
+Caso encontre problemas ou tenha dúvidas, sinta-se à vontade para entrar em contato com os desenvolvedores do projeto. 😊
+
+---
+
+## Pessoas Contribuidoras
+
+[<img src="https://avatars.githubusercontent.com/u/181884443?v=4" width=115><br><sub>Ellen Akemi Caldeira</sub>](https://github.com/ellen-akemi) |  [<img src="https://avatars.githubusercontent.com/u/55546267?v=4" width=115><br><sub>Priscila Miranda</sub>](https://github.com/priscilafraser) |
+| :---: | :---: |
+
